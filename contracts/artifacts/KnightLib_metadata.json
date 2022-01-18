@@ -1,0 +1,112 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "attackerId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "receiverId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint8",
+						"name": "energyLeft",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "wasSuccessful",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "damage",
+						"type": "uint256"
+					}
+				],
+				"name": "Attack",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "attackEnergyConsumption",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/KnightLib.sol": "KnightLib"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0xa2f576be637946f767aa56601c26d717f48a0aff44f82e46f13807eea1009a21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://973868f808e88e21a1a0a01d4839314515ee337ad096286c88e41b74dcc11fc2",
+				"dweb:/ipfs/QmfYuZxRfx2J2xdk4EXN7jKg4bUYEMTaYk9BAw9Bqn4o2Y"
+			]
+		},
+		"contracts/KnightLib.sol": {
+			"keccak256": "0x7894f3c38f336d7f6ccccc1b4f8cac3159e71b08cc7c42e6280845ea6e8bb523",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d16944df318ba0a34257fad6853f9fd4034c05fae8ff3226868d5a5cb09f043f",
+				"dweb:/ipfs/QmSXSUXeDeoxWeGMRJ27XuJjEEte3Pne1NXg2WMR6XafA4"
+			]
+		},
+		"contracts/utils/SafeMathUtils.sol": {
+			"keccak256": "0xae7d0add9b33f3723eb9c3fe9074076a4d60c80b690f3dfd00b78bca8440d160",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c2c09ea4036b365becf5cda8201bbdb7e7467c07186551a10bcf422199d5d5f5",
+				"dweb:/ipfs/QmTouvrg4UFa2j6T7TmHJJnBvvEjZvmQXWH2tuRQNicbvJ"
+			]
+		}
+	},
+	"version": 1
+}

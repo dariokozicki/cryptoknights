@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AbstractKnight.sol": "AbstracTKnight"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AbstractKnight.sol": {
+			"keccak256": "0x12f74b2622ed802aeb4a7b9a8161d5c6c0e8f4024bfaae6260dcc57ded3c0955",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9c2977e10735b35055d00c25f78a9bd3d54839c501e17add36cda569b69449a",
+				"dweb:/ipfs/QmNQTH5q6UevbyMwizvtfQtAX4XzrMQ1KdU64Tsc5vGR9m"
+			]
+		}
+	},
+	"version": 1
+}
